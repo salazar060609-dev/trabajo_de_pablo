@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusSound - Estudio de Grabación y Comunidad Musical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">Reserva de estudios y mezcla vía <strong>WhatsApp</strong></span>
+                <span class="top-item whatsapp">Soporte y distribución digital en <strong>Línea</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <span class="brand-logo-text">Nexus<span>Sound</span></span>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#catalogo">Servicios</a>
+                <a href="#comunidad">Productores</a>
+                <a href="#multimedia">Estudio</a>
+                <a href="login.html" class="btn-nav-login">Iniciar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN HERO: DOS COLUMNAS -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <div class="hero-text-side">
+                <span class="hero-tag">Producción Profesional 2026</span>
+                <h1>El Arte y la Potencia del Sonido en Alta Fidelidad</h1>
+                <p>Descubre nuestros estudios de grabación equipados con tecnología analógica y digital, mezcla profesional, masterización de nivel internacional y distribución para artistas independientes.</p>
+                
+                <div class="hero-cta-box">
+                    <a href="#catalogo" class="btn-orange">Ver Servicios de Estudio</a>
+                    <div class="hero-benefits">
+                        <span>Ingenieros de audio certificados</span>
+                        <span>Acústica optimizada de nivel mundial</span>
+                        <span>Planes de mezcla y masterización a medida</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collage de imágenes adaptado a la música -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="img/musica1.jpg" alt="Consola de Mezcla Profesional">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="img/musica5.jpg" alt="Micrófonos de Estudio">
+                        <img src="img/musica4.jpg" alt="Instrumentos y Monitores de Audio">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CATÁLOGO / SERVICIOS MUSICALES -->
+    <section id="catalogo" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Servicios del Estudio</h2>
+                <p>Soluciones integrales para cada etapa de tu producción musical</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/music1.jpg" alt="Grabación de Voces e Instrumentos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Grabación Multipista</h3>
+                        <p>Captura la máxima claridad en voces e instrumentos con previos analógicos y micrófonos de alta gama.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/music2.jpg" alt="Mezcla de Audio">
+                    </div>
+                    <div class="career-content">
+                        <h3>Mezcla Profesional</h3>
+                        <p>Balance espacial, ecualización precisa y compresión dinámica para dar profundidad y pegada a tus canciones.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/music3.jpg" alt="Masterización">
+                    </div>
+                    <div class="career-content">
+                        <h3>Masterización Comercial</h3>
+                        <p>Optimización final para plataformas de streaming (Spotify, Apple Music) con estándares internacionales de volumen.</p>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/music4.jpg" alt="Beatmaking y Producción">
+                    </div>
+                    <div class="career-content">
+                        <h3>Beatmaking y Arreglos</h3>
+                        <p>Creación de instrumentales exclusivas, diseño sonoro, arreglos orquestales y composición a la medida.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- SECCIÓN DE ARTISTAS Y BANDAS DESTACADAS -->
+    <section id="comunidad" class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">Artistas Destacados</span>
+                    <h2>Bandas y Leyendas en la Plataforma</h2>
+                    <p>Escucha los catálogos completos y sigue las trayectorias de las bandas y agrupaciones más influyentes del rock, metal y rap:</p>
+                </div>
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn" aria-label="Anterior">‹</button>
+                    <button id="btn-next" class="nav-btn" aria-label="Siguiente">›</button>
+                </div>
+            </div>
+
+            <div class="teachers-grid" id="teachers-track">
+                
+                <div class="teacher-card">
+                    <img src="img/deftones.jpg" alt="Deftones">
+                    <div class="teacher-info">
+                        <h3>Deftones</h3>
+                        <p>Pioneros del metal alternativo y el shoegaze. Atmósferas pesadas y sonido inconfundible liderado por Chino Moreno.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/soad.jpg" alt="System of a Down">
+                    <div class="teacher-info">
+                        <h3>System of a Down</h3>
+                        <p>Iconos del metal experimental y rock contestatario, fusionando melodías armónicas con energía desbordante.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/red.jpg" alt="Red Hot Chili Peppers">
+                    <div class="teacher-info">
+                        <h3>Red Hot Chili Peppers</h3>
+                        <p>La legendaria mezcla de funk rock y melodías californianas que ha marcado generaciones enteras en la música.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/la santa grifa.jpg" alt="La Santa Grifa">
+                    <div class="teacher-info">
+                        <h3>La Santa Grifa</h3>
+                        <p>Exponentes máximos del rap underground y urbano en español, con letras directas y un estilo callejero único.</p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN MULTIMEDIA: VIDEO Y MAPA -->
+    <section id="multimedia" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="teachers-tag">Experiencia NexusSound</span>
+                <h2>Sesión en Estudio y Ubicación Matriz</h2>
+                <p>Escucha la calidad de nuestras producciones en el video oficial y visítanos en nuestras instalaciones.</p>
+            </div>
+
+            <div class="multimedia-grid">
+                
+                <div class="multimedia-card">
+                    <h3>Sesión de Mezcla en Vivo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://www.youtube.com/embed/Tk0KxuMVoss?si=SLoG4i85Zwbqmr34" title="Video del Estudio" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="multimedia-card">
+                    <h3>Estudio de Grabación NexusSound</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.4539824045!2d-99.2312!3d18.8923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDUzJzMyLjMiTiA5OcKwMTMnNTIuMyJX!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" title="Ubicación Estudio" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE RESERVA Y REGISTRO (10 CAMPOS) -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <div class="hero-text-side">
+                <span class="hero-tag">Reserva Abierta</span>
+                <h1 class="hero-title-custom">Agenda tu Sesión de Estudio</h1>
+                <p class="hero-desc-custom">
+                    Llena el formulario para cotizar horas de grabación, mezcla profesional o solicitar una asesoría con nuestros productores.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Beneficios al registrarte
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>Primera consulta de mezcla sin costo</span>
+                    <span>Acceso a tarifas preferenciales por paquete de horas</span>
+                    <span>Asesoría personalizada en distribución digital</span>
+                    <span>Invitación a masterclasses de producción musical</span>
+                </div>
+            </div>
+
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicitud de Servicio
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre o nombre artístico" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_telefono" name="telefono" required placeholder="Número de teléfono / WhatsApp" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_interes" name="servicio" required class="form-control-select">
+                                <option value="">¿Qué servicio requieres?</option>
+                                <option value="grabacion">Grabación en estudio</option>
+                                <option value="mezcla">Mezcla y Masterización</option>
+                                <option value="beatmaking">Producción de Beat / Instrumental</option>
+                                <option value="asesoria">Asesoría y Distribución</option>
+                            </select>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_modelo" name="genero_musical" required class="form-control-select">
+                                <option value="">Selecciona género musical</option>
+                                <option value="urbano">Urbano / Trap / Reggaetón</option>
+                                <option value="pop">Pop / R&B</option>
+                                <option value="rock">Rock / Alternativo / Metal</option>
+                                <option value="electronica">Electrónica / Lo-Fi</option>
+                            </select>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha deseada para la sesión:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Cuéntanos detalles de tu proyecto musical..." class="form-control-textarea"></textarea>
+                        </div>
+
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto las políticas de cancelación de estudio y el aviso de privacidad.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Enviar Solicitud
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MARQUESINA DE EQUIPAMIENTO Y PLATAFORMAS -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">Hardware y Software Asociado</span>
+                <h2>Equipamiento de Calidad Mundial</h2>
+                <p>Trabajamos con los estándares de la industria en hardware analógico y DAWs profesionales.</p>
+            </div>
+
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">Pro Tools Ultimate</div>
+                    <div class="convenio-card">Ableton Live Studio</div>
+                    <div class="convenio-card">Neve Consoles</div>
+                    <div class="convenio-card">SSL Mixing Desks</div>
+                    <div class="convenio-card">Universal Audio</div>
+                    <div class="convenio-card">Neumann Microphones</div>
+                    <div class="convenio-card">Shure SM7B</div>
+                    <div class="convenio-card">Genelec Monitors</div>
+                    <!-- Duplicado infinito -->
+                    <div class="convenio-card">Pro Tools Ultimate</div>
+                    <div class="convenio-card">Ableton Live Studio</div>
+                    <div class="convenio-card">Neve Consoles</div>
+                    <div class="convenio-card">SSL Mixing Desks</div>
+                    <div class="convenio-card">Universal Audio</div>
+                    <div class="convenio-card">Neumann Microphones</div>
+                    <div class="convenio-card">Shure SM7B</div>
+                    <div class="convenio-card">Genelec Monitors</div>
+                </div>
+            </div>
+
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">Spotify for Artists</div>
+                    <div class="convenio-card">Apple Music Distribution</div>
+                    <div class="convenio-card">SoundCloud Premier</div>
+                    <div class="convenio-card">Tidal HiFi</div>
+                    <div class="convenio-card">FabFilter Plugins</div>
+                    <div class="convenio-card">Waves Audio</div>
+                    <div class="convenio-card">Splice Sound Library</div>
+                    <div class="convenio-card">Native Instruments</div>
+                    <!-- Duplicado infinito -->
+                    <div class="convenio-card">Spotify for Artists</div>
+                    <div class="convenio-card">Apple Music Distribution</div>
+                    <div class="convenio-card">SoundCloud Premier</div>
+                    <div class="convenio-card">Tidal HiFi</div>
+                    <div class="convenio-card">FabFilter Plugins</div>
+                    <div class="convenio-card">Waves Audio</div>
+                    <div class="convenio-card">Splice Sound Library</div>
+                    <div class="convenio-card">Native Instruments</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>NexusSound Estudio de Grabación y Producción © 2026</p>
+                <p class="footer-author">Desarrollada por: salazar avilez cristian jair (5A PRO VESP)</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://discord.com" target="_blank" class="social-link-text">WhatsApp</a>
+                <a href="https://twitch.tv" target="_blank" class="social-link-text">Instagram</a>
+                <a href="https://youtube.com" target="_blank" class="social-link-text">YouTube</a>
+                <a href="https://twitter.com" target="_blank" class="social-link-text">SoundCloud</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
